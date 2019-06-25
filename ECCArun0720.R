@@ -1,6 +1,4 @@
 
-setwd('C:\\Users\\xun02\\Dropbox\\Shao\\SIR') #work
-
 #load("run0720.RData")
 
 library(MASS)
@@ -22,7 +20,7 @@ angle <- function(x,y)
   rho
 }
 
-#I guess I'll have to write a function
+# SIR step
 multiSIR <- function(x,y,
                      # rounddown=0, #any coefficient with absolute value below this number is rounded down to 0
                      niters=10,
